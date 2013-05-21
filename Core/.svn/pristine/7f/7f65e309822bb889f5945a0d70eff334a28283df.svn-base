@@ -1,0 +1,40 @@
+package com.citydi.model;
+
+import com.citydi.common.base.BaseEntity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+/**
+ * Created by Emad Aghayi
+ * at 2013/05/07 - 12:11
+ */
+@Entity
+@Table(name = "BILL")
+//@SequenceGenerator(name = "idGenerator", sequenceName = "SEQ_BILL", allocationSize = 1)
+public class Bill extends BaseEntity {
+
+    private int billAmount;
+    private String billType;
+
+    @Column(name ="BILLAMOUNT" )
+    public int getBillAmount() {
+        return billAmount;
+    }
+    @Column(name ="BILLTYPE" )
+    public String getBillType() {
+        return billType;
+    }
+
+    public void setBillAmount(int billAmount) {
+        this.billAmount = billAmount;
+    }
+
+    public void setBillType(String billType) {
+        this.billType = billType;
+    }
+}
+
+

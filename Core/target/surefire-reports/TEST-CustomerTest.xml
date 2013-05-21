@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.539" errors="1" skipped="0" tests="1" name="CustomerTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\bin"/>
+    <property name="java.vm.version" value="23.6-b04"/>
+    <property name="user.country.format" value="IR"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\Sources\Core"/>
+    <property name="java.runtime.version" value="1.7.0_11-b21"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\Sources\Core"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="E:\Sources\Core\target\surefire\surefirebooter7059815159757757756.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\E6EF7~1.AGH\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 12.0.3\bin\..\.\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.0.3\bin;%JAVA_HOME%\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;c:\program files (x86)\jetbrains\intellij idea 12.0.3\jre\jre\bin;."/>
+    <property name="surefire.test.class.path" value="E:\Sources\Core\target\test-classes;E:\Sources\Core\target\classes;D:\repository\org\springframework\spring-core\3.1.2.RELEASE\spring-core-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-asm\3.1.2.RELEASE\spring-asm-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-context\3.1.2.RELEASE\spring-context-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-aop\3.1.2.RELEASE\spring-aop-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-beans\3.1.2.RELEASE\spring-beans-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-expression\3.1.2.RELEASE\spring-expression-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-web\3.1.2.RELEASE\spring-web-3.1.2.RELEASE.jar;D:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\repository\org\springframework\spring-tx\3.1.2.RELEASE\spring-tx-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-orm\3.1.2.RELEASE\spring-orm-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-jdbc\3.1.2.RELEASE\spring-jdbc-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-test\3.1.2.RELEASE\spring-test-3.1.2.RELEASE.jar;D:\repository\org\springframework\security\spring-security-core\3.0.3.RELEASE\spring-security-core-3.0.3.RELEASE.jar;D:\repository\org\aspectj\aspectjrt\1.6.8\aspectjrt-1.6.8.jar;D:\repository\org\springframework\security\spring-security-web\3.0.3.RELEASE\spring-security-web-3.0.3.RELEASE.jar;D:\repository\org\springframework\security\spring-security-config\3.0.3.RELEASE\spring-security-config-3.0.3.RELEASE.jar;D:\repository\org\aspectj\aspectjweaver\1.6.8\aspectjweaver-1.6.8.jar;D:\repository\cglib\cglib\2.2\cglib-2.2.jar;D:\repository\asm\asm\3.1\asm-3.1.jar;D:\repository\org\tuckey\urlrewritefilter\3.1.0\urlrewritefilter-3.1.0.jar;D:\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\repository\javax\el\el-api\2.2\el-api-2.2.jar;D:\repository\com\sun\faces\jsf-api\2.1.13\jsf-api-2.1.13.jar;D:\repository\com\sun\faces\jsf-impl\2.1.13\jsf-impl-2.1.13.jar;D:\repository\com\citydi\javaee\6.4\javaee-6.4.jar;D:\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\repository\org\primefaces\primefaces\3.5\primefaces-3.5.jar;D:\repository\org\primefaces\themes\start\1.0.8\start-1.0.8.jar;D:\repository\org\hibernate\hibernate-core\3.6.4.Final\hibernate-core-3.6.4.Final.jar;D:\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;D:\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;D:\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;D:\repository\javax\transaction\jta\1.1\jta-1.1.jar;D:\repository\org\hibernate\hibernate-annotations\3.3.1.GA\hibernate-annotations-3.3.1.GA.jar;D:\repository\org\hibernate\hibernate\3.2.6.ga\hibernate-3.2.6.ga.jar;D:\repository\net\sf\ehcache\ehcache\1.2.3\ehcache-1.2.3.jar;D:\repository\asm\asm-attrs\1.5.3\asm-attrs-1.5.3.jar;D:\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;D:\repository\org\hibernate\hibernate-ehcache\3.6.4.Final\hibernate-ehcache-3.6.4.Final.jar;D:\repository\net\sf\ehcache\ehcache-core\2.2.0\ehcache-core-2.2.0.jar;D:\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repository\org\slf4j\slf4j-jdk14\1.6.1\slf4j-jdk14-1.6.1.jar;D:\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;D:\repository\com\ghasemkhani\persiancalendar\2.1\persiancalendar-2.1.jar;D:\repository\com\ibm\icu4j\3.2\icu4j-3.2.jar;D:\repository\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar;D:\repository\commons-io\commons-io\2.1\commons-io-2.1.jar;D:\repository\net\sf\jasperreports\jasperreports\4.0.0\jasperreports-4.0.0.jar;D:\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;D:\repository\commons-digester\commons-digester\1.7\commons-digester-1.7.jar;D:\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;D:\repository\bouncycastle\bcmail-jdk14\138\bcmail-jdk14-138.jar;D:\repository\bouncycastle\bcprov-jdk14\138\bcprov-jdk14-138.jar;D:\repository\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;D:\repository\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;D:\repository\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;D:\repository\jfree\jcommon\1.0.15\jcommon-1.0.15.jar;D:\repository\jfree\jfreechart\1.0.12\jfreechart-1.0.12.jar;D:\repository\xml-apis\xml-apis\1.3.02\xml-apis-1.3.02.jar;D:\repository\eclipse\jdtcore\3.1.0\jdtcore-3.1.0.jar;D:\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\repository\junit\junit\4.11\junit-4.11.jar;D:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\repository\com\microsoft\sqlserver\sqljdbc4\3.0\sqljdbc4-3.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\repository"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\e.aghaei"/>
+    <property name="user.timezone" value="Asia/Tehran"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="e.aghaei"/>
+    <property name="java.class.path" value="E:\Sources\Core\target\test-classes;E:\Sources\Core\target\classes;D:\repository\org\springframework\spring-core\3.1.2.RELEASE\spring-core-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-asm\3.1.2.RELEASE\spring-asm-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-context\3.1.2.RELEASE\spring-context-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-aop\3.1.2.RELEASE\spring-aop-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-beans\3.1.2.RELEASE\spring-beans-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-expression\3.1.2.RELEASE\spring-expression-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-web\3.1.2.RELEASE\spring-web-3.1.2.RELEASE.jar;D:\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\repository\org\springframework\spring-tx\3.1.2.RELEASE\spring-tx-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-orm\3.1.2.RELEASE\spring-orm-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-jdbc\3.1.2.RELEASE\spring-jdbc-3.1.2.RELEASE.jar;D:\repository\org\springframework\spring-test\3.1.2.RELEASE\spring-test-3.1.2.RELEASE.jar;D:\repository\org\springframework\security\spring-security-core\3.0.3.RELEASE\spring-security-core-3.0.3.RELEASE.jar;D:\repository\org\aspectj\aspectjrt\1.6.8\aspectjrt-1.6.8.jar;D:\repository\org\springframework\security\spring-security-web\3.0.3.RELEASE\spring-security-web-3.0.3.RELEASE.jar;D:\repository\org\springframework\security\spring-security-config\3.0.3.RELEASE\spring-security-config-3.0.3.RELEASE.jar;D:\repository\org\aspectj\aspectjweaver\1.6.8\aspectjweaver-1.6.8.jar;D:\repository\cglib\cglib\2.2\cglib-2.2.jar;D:\repository\asm\asm\3.1\asm-3.1.jar;D:\repository\org\tuckey\urlrewritefilter\3.1.0\urlrewritefilter-3.1.0.jar;D:\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\repository\javax\el\el-api\2.2\el-api-2.2.jar;D:\repository\com\sun\faces\jsf-api\2.1.13\jsf-api-2.1.13.jar;D:\repository\com\sun\faces\jsf-impl\2.1.13\jsf-impl-2.1.13.jar;D:\repository\com\citydi\javaee\6.4\javaee-6.4.jar;D:\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\repository\org\primefaces\primefaces\3.5\primefaces-3.5.jar;D:\repository\org\primefaces\themes\start\1.0.8\start-1.0.8.jar;D:\repository\org\hibernate\hibernate-core\3.6.4.Final\hibernate-core-3.6.4.Final.jar;D:\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;D:\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;D:\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;D:\repository\javax\transaction\jta\1.1\jta-1.1.jar;D:\repository\org\hibernate\hibernate-annotations\3.3.1.GA\hibernate-annotations-3.3.1.GA.jar;D:\repository\org\hibernate\hibernate\3.2.6.ga\hibernate-3.2.6.ga.jar;D:\repository\net\sf\ehcache\ehcache\1.2.3\ehcache-1.2.3.jar;D:\repository\asm\asm-attrs\1.5.3\asm-attrs-1.5.3.jar;D:\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;D:\repository\org\hibernate\hibernate-ehcache\3.6.4.Final\hibernate-ehcache-3.6.4.Final.jar;D:\repository\net\sf\ehcache\ehcache-core\2.2.0\ehcache-core-2.2.0.jar;D:\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;D:\repository\org\slf4j\slf4j-jdk14\1.6.1\slf4j-jdk14-1.6.1.jar;D:\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;D:\repository\com\ghasemkhani\persiancalendar\2.1\persiancalendar-2.1.jar;D:\repository\com\ibm\icu4j\3.2\icu4j-3.2.jar;D:\repository\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar;D:\repository\commons-io\commons-io\2.1\commons-io-2.1.jar;D:\repository\net\sf\jasperreports\jasperreports\4.0.0\jasperreports-4.0.0.jar;D:\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;D:\repository\commons-digester\commons-digester\1.7\commons-digester-1.7.jar;D:\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;D:\repository\bouncycastle\bcmail-jdk14\138\bcmail-jdk14-138.jar;D:\repository\bouncycastle\bcprov-jdk14\138\bcprov-jdk14-138.jar;D:\repository\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;D:\repository\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;D:\repository\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;D:\repository\jfree\jcommon\1.0.15\jcommon-1.0.15.jar;D:\repository\jfree\jfreechart\1.0.12\jfreechart-1.0.12.jar;D:\repository\xml-apis\xml-apis\1.3.02\xml-apis-1.3.02.jar;D:\repository\eclipse\jdtcore\3.1.0\jdtcore-3.1.0.jar;D:\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\repository\junit\junit\4.11\junit-4.11.jar;D:\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\repository\com\microsoft\sqlserver\sqljdbc4\3.0\sqljdbc4-3.0.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_11\jre"/>
+    <property name="sun.java.command" value="E:\Sources\Core\target\surefire\surefirebooter7059815159757757756.jar E:\Sources\Core\target\surefire\surefire1764812192963383832tmp E:\Sources\Core\target\surefire\surefire7132364056645829438tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="fa"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_11\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_11\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_11\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.101" classname="CustomerTest" name="customerTest">
+    <error message="could not insert collection: [com.citydi.model.Customer.bills#15]; SQL [insert into CUSTOMER_BILL (CUSTOMER_ID, bills_ID) values (?, ?)]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not insert collection: [com.citydi.model.Customer.bills#15]" type="org.springframework.dao.DataIntegrityViolationException">org.springframework.dao.DataIntegrityViolationException: could not insert collection: [com.citydi.model.Customer.bills#15]; SQL [insert into CUSTOMER_BILL (CUSTOMER_ID, bills_ID) values (?, ?)]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not insert collection: [com.citydi.model.Customer.bills#15]
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:643)
+	at org.springframework.orm.hibernate3.HibernateAccessor.convertHibernateAccessException(HibernateAccessor.java:412)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:411)
+	at org.springframework.orm.hibernate3.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:374)
+	at org.springframework.orm.hibernate3.HibernateTemplate.saveOrUpdate(HibernateTemplate.java:737)
+	at com.citydi.common.base.BaseDAO.save(BaseDAO.java:76)
+	at com.citydi.bo.CustomerBo.fill(CustomerBo.java:46)
+	at com.citydi.facade.CustomerFacade.fillcustomer(CustomerFacade.java:23)
+	at CustomerTest.customerTest(CustomerTest.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:115)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at $Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not insert collection: [com.citydi.model.Customer.bills#15]
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:96)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1243)
+	at org.hibernate.action.CollectionRecreateAction.execute(CollectionRecreateAction.java:58)
+	at org.hibernate.engine.ActionQueue.execute(ActionQueue.java:273)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:265)
+	at org.hibernate.engine.ActionQueue.executeActions(ActionQueue.java:188)
+	at org.hibernate.event.def.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:321)
+	at org.hibernate.event.def.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:51)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:1216)
+	at org.springframework.orm.hibernate3.HibernateAccessor.flushIfNecessary(HibernateAccessor.java:390)
+	at org.springframework.orm.hibernate3.HibernateTemplate.doExecute(HibernateTemplate.java:407)
+	... 36 more
+Caused by: com.microsoft.sqlserver.jdbc.SQLServerException: Violation of UNIQUE KEY constraint &apos;UQ__CUSTOMER__07A1302852E34C9D&apos;. Cannot insert duplicate key in object &apos;dbo.CUSTOMER_BILL&apos;.
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:216)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.getNextResult(SQLServerStatement.java:1515)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.doExecutePreparedStatement(SQLServerPreparedStatement.java:404)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement$PrepStmtExecCmd.doExecute(SQLServerPreparedStatement.java:350)
+	at com.microsoft.sqlserver.jdbc.TDSCommand.execute(IOBuffer.java:5696)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.executeCommand(SQLServerConnection.java:1715)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeCommand(SQLServerStatement.java:180)
+	at com.microsoft.sqlserver.jdbc.SQLServerStatement.executeStatement(SQLServerStatement.java:155)
+	at com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeUpdate(SQLServerPreparedStatement.java:314)
+	at org.hibernate.jdbc.NonBatchingBatcher.addToBatch(NonBatchingBatcher.java:46)
+	at org.hibernate.persister.collection.AbstractCollectionPersister.recreate(AbstractCollectionPersister.java:1206)
+	... 45 more
+</error>
+    <system-out>@SLTests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.159 sec
+@SLRunning CustomerTest
+Hibernate: select this_.ID as ID6_1_, this_.BILLAMOUNT as BILLAMOUNT6_1_, this_.BILLTYPE as BILLTYPE6_1_, this_.FK_CUSTOMER as FK4_6_1_, customer2_.ID as ID5_0_, customer2_.ADDRESS as ADDRESS5_0_, customer2_.EXPIREDATE as EXPIREDATE5_0_, customer2_.FAMILY as FAMILY5_0_, customer2_.GENDER as GENDER5_0_, customer2_.NAME as NAME5_0_, customer2_.NATIONALCODE as NATIONAL7_5_0_ from BILL this_ left outer join CUSTOMER customer2_ on this_.FK_CUSTOMER=customer2_.ID
+Hibernate: insert into CUSTOMER (ADDRESS, EXPIREDATE, FAMILY, GENDER, NAME, NATIONALCODE) values (?, ?, ?, ?, ?, ?)
+Hibernate: insert into CUSTOMER_BILL (CUSTOMER_ID, bills_ID) values (?, ?)
+</system-out>
+    <system-err>May 20, 2013 4:10:34 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@10174006: startup date [Mon May 20 16:10:34 IRDT 2013]; root of context hierarchy
+May 20, 2013 4:10:34 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [spring/mainContext.xml]
+May 20, 2013 4:10:34 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [spring/databaseContext.xml]
+May 20, 2013 4:10:34 PM org.springframework.core.io.support.PropertiesLoaderSupport loadProperties
+INFO: Loading properties file from class path resource [hibernate-oracle.properties]
+May 20, 2013 4:10:34 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5ce20ee5: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,billBo,customerBo,billDAO,customerDAO,billFacade,customerFacade,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,identifierGenerator,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,txDaoAdvice,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+May 20, 2013 4:10:34 PM org.springframework.jdbc.datasource.DriverManagerDataSource setDriverClassName
+INFO: Loaded JDBC driver: com.microsoft.sqlserver.jdbc.SQLServerDriver
+May 20, 2013 4:10:34 PM org.hibernate.cfg.Configuration applyHibernateValidatorLegacyConstraintsOnDDL
+INFO: Hibernate Validator not found: ignoring
+May 20, 2013 4:10:34 PM com.citydi.common.base.ResolverUtil findInPackage
+INFO: Scanning for classes in [/E:/Sources/Core/target/classes/com/citydi] matching criteria: annotated with @Entity
+May 20, 2013 4:10:34 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean buildSessionFactory
+INFO: Building new Hibernate SessionFactory
+May 20, 2013 4:10:34 PM org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: com.citydi.model.Customer
+May 20, 2013 4:10:34 PM org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity com.citydi.model.Customer on table CUSTOMER
+May 20, 2013 4:10:34 PM org.hibernate.cfg.AnnotationBinder bindClass
+INFO: Binding entity from annotated class: com.citydi.model.Bill
+May 20, 2013 4:10:34 PM org.hibernate.cfg.annotations.EntityBinder bindTable
+INFO: Bind entity com.citydi.model.Bill on table BILL
+May 20, 2013 4:10:34 PM org.hibernate.cfg.search.HibernateSearchEventListenerRegister enableHibernateSearch
+INFO: Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+May 20, 2013 4:10:34 PM org.hibernate.connection.ConnectionProviderFactory initializeConnectionProviderFromConfig
+INFO: Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+May 20, 2013 4:10:34 PM org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: Using dialect: org.hibernate.dialect.SQLServerDialect
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Database -&gt;
+       name : Microsoft SQL Server
+    version : 10.50.1600
+      major : 10
+      minor : 50
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Driver -&gt;
+       name : Microsoft JDBC Driver 4.0 for SQL Server
+    version : 4.0.2206.100
+      major : 4
+      minor : 0
+May 20, 2013 4:10:34 PM org.hibernate.transaction.TransactionFactoryFactory buildTransactionFactory
+INFO: Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+May 20, 2013 4:10:34 PM org.hibernate.transaction.TransactionManagerLookupFactory getTransactionManagerLookup
+INFO: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic flush during beforeCompletion(): disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Automatic session close at end of transaction: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Scrollable result sets: enabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JDBC3 getGeneratedKeys(): enabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Connection release mode: auto
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Maximum outer join fetch depth: 3
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default batch fetch size: 1
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Generate SQL with comments: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL updates by primary key: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Order SQL inserts for batching: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory createQueryTranslatorFactory
+INFO: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+May 20, 2013 4:10:34 PM org.hibernate.hql.ast.ASTQueryTranslatorFactory &lt;init&gt;
+INFO: Using ASTQueryTranslatorFactory
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query language substitutions: {false=&apos;N&apos;, true=&apos;Y&apos;}
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: JPA-QL strict compliance: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Second-level cache: enabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Query cache: enabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory createRegionFactory
+INFO: Cache region factory : org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge
+May 20, 2013 4:10:34 PM org.hibernate.cache.impl.bridge.RegionFactoryCacheProviderBridge &lt;init&gt;
+INFO: Cache provider: net.sf.ehcache.hibernate.SingletonEhCacheProvider
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Optimize cache for minimal puts: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Structured second-level cache entries: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory createQueryCacheFactory
+INFO: Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Echoing all SQL to stdout
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Statistics: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Deleted entity synthetic identifier rollback: disabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Default entity-mode: pojo
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Named query checking : enabled
+May 20, 2013 4:10:34 PM org.hibernate.cfg.SettingsFactory buildSettings
+INFO: Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+May 20, 2013 4:10:34 PM org.hibernate.impl.SessionFactoryImpl &lt;init&gt;
+INFO: building session factory
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@5d82f675
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [blob] overrides previous : org.hibernate.type.BlobType@4102ab49
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@4102ab49
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@163b66f7
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@15e4ed88
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@68a686f2
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [clob] overrides previous : org.hibernate.type.ClobType@ce5af8b
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@ce5af8b
+May 20, 2013 4:10:34 PM org.hibernate.type.BasicTypeRegistry register
+INFO: Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@3b67d54a
+May 20, 2013 4:10:34 PM org.hibernate.impl.SessionFactoryObjectFactory addInstance
+INFO: Not binding factory to JNDI, no JNDI name configured
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: Running hbm2ddl schema update
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: fetching database metadata
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: updating schema
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: table found: coreBanking.dbo.BILL
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: columns: [id, billamount, billtype, fk_customer]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: foreign keys: [fk1f1c071645e90c]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: indexes: [pk__bill__3214ec274b422ad5]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: table found: coreBanking.dbo.CUSTOMER
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: columns: [id, address, family, name, gender, nationalcode, expiredate]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: foreign keys: []
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: indexes: [pk__customer__3214ec274f12bbb9]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: table found: coreBanking.dbo.CUSTOMER_BILL
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: columns: [bills_id, customer_id]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: foreign keys: [fk3bb39fc8154e3410, fk3bb39fc825c1d70b]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: indexes: [uq__customer__07a1302852e34c9d]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.SchemaUpdate execute
+INFO: schema update complete
+May 20, 2013 4:10:34 PM org.hibernate.cache.UpdateTimestampsCache &lt;init&gt;
+INFO: starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+May 20, 2013 4:10:34 PM org.hibernate.cache.StandardQueryCache &lt;init&gt;
+INFO: starting query cache at region: org.hibernate.cache.StandardQueryCache
+May 20, 2013 4:10:34 PM org.springframework.orm.hibernate3.LocalSessionFactoryBean updateDatabaseSchema
+INFO: Updating database schema for Hibernate SessionFactory
+May 20, 2013 4:10:34 PM org.hibernate.dialect.Dialect &lt;init&gt;
+INFO: Using dialect: org.hibernate.dialect.SQLServerDialect
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: table found: coreBanking.dbo.BILL
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: columns: [id, billamount, billtype, fk_customer]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: foreign keys: [fk1f1c071645e90c]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: indexes: [pk__bill__3214ec274b422ad5]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: table found: coreBanking.dbo.CUSTOMER
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: columns: [id, address, family, name, gender, nationalcode, expiredate]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: foreign keys: []
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: indexes: [pk__customer__3214ec274f12bbb9]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: table found: coreBanking.dbo.CUSTOMER_BILL
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: columns: [bills_id, customer_id]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: foreign keys: [fk3bb39fc8154e3410, fk3bb39fc825c1d70b]
+May 20, 2013 4:10:34 PM org.hibernate.tool.hbm2ddl.TableMetadata &lt;init&gt;
+INFO: indexes: [uq__customer__07a1302852e34c9d]
+May 20, 2013 4:10:35 PM org.springframework.orm.hibernate3.HibernateTransactionManager afterPropertiesSet
+INFO: Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@77a860e4] of Hibernate SessionFactory for HibernateTransactionManager
+May 20, 2013 4:10:35 PM org.hibernate.util.JDBCExceptionReporter logExceptions
+WARNING: SQL Error: 2627, SQLState: 23000
+May 20, 2013 4:10:35 PM org.hibernate.util.JDBCExceptionReporter logExceptions
+SEVERE: Violation of UNIQUE KEY constraint &apos;UQ__CUSTOMER__07A1302852E34C9D&apos;. Cannot insert duplicate key in object &apos;dbo.CUSTOMER_BILL&apos;.
+</system-err>
+  </testcase>
+</testsuite>

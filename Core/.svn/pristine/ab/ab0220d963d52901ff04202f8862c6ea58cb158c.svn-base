@@ -1,0 +1,37 @@
+package com.citydi.bo;
+
+import com.citydi.common.base.BaseBean;
+import com.citydi.dal.dao.BillDAO;
+import com.citydi.model.Bill;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+
+/**
+ * Created by Emad Aghayi
+ * at 2013/05/07 - 13:42
+ */
+@Component
+@Scope("prototype")
+public class BillBo extends BaseBean {
+
+
+    @Autowired
+    private BillDAO billDAO;
+    @PostConstruct
+    public void init() {
+
+    }
+
+
+    public void fill() {
+        System.out.print("dsfsdfsdfjfsdnhsdfjui");
+        Bill bill = new Bill();
+        bill.setBillAmount(741);
+        bill.setBillType("741");
+        billDAO.save(bill);
+    }
+}
+

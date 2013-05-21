@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       					   http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+                           http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
+
+    <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+        <!--<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />-->
+        <!--<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE" />-->
+        <!--<property name="username" value="root" />-->
+        <!--<property name="password" value="root" />-->
+    <!--</bean>-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+        <property name="url" value="jdbc:sqlserver://10.187.100.14;databaseName=coreBanking;integratedSecurity=false" />
+        <property name="username" value="coreBanking" />
+        <property name="password" value="coreBanking" />
+    </bean>
+
+    <!-- ========================= JDBC CONFIGURATION ======================== -->
+
+    <!--<jee:jndi-lookup id="dataSource" jndi-name="${datasource.jndi.name}">
+        <jee:environment>
+            java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory
+            java.naming.provider.url=t3://localhost:8001
+        </jee:environment>
+    </jee:jndi-lookup>-->
+
+    <!--<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiEnvironment">
+            <props>
+                <prop key="java.naming.factory.initial">weblogic.jndi.WLInitialContextFactory</prop>
+                <prop key="java.naming.provider.url">t3://localhost:8001</prop>
+            </props>
+        </property>
+        <property name="jndiName" value="${datasource.jndi.name}">
+        </property>
+    </bean>-->
+
+    <!--<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiName" value="java:comp/env/jdbc/medical-license"/>
+        <property name="resourceRef" value="true"/>
+    </bean>-->
+
+    <!--<bean id="sessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">-->
+    <bean id="sessionFactory" class="com.citydi.common.base.SmartAnnotationSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="lobHandler">
+            <bean class="org.springframework.jdbc.support.lob.DefaultLobHandler" lazy-init="true"/>
+        </property>
+        <property name="schemaUpdate" value="${schemaUpdate}"/>
+        <property name="hibernateProperties">
+            <props>
+                <!--<prop key="hibernate.default_schema">${database.schema}</prop>-->
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+                <prop key="hibernate.cache.provider_class">${hibernate.cache.provider_class}</prop>
+
+                <prop key="hibernate.query.substitutions">true 'Y', false 'N'</prop>
+                <prop key="hibernate.cache.use_second_level_cache">true</prop>
+                <prop key="hibernate.cache.use_query_cache">true</prop>
+                <prop key="hibernate.max_fetch_depth">3</prop>
+                <prop key="hibernate.use_outer_join">true</prop>
+
+                <prop key="hibernate.query.factory_class">org.hibernate.hql.ast.ASTQueryTranslatorFactory</prop>
+
+                <!--
+                <prop key="hibernate.proxool.pool_alias">PoolDb1</prop>
+                <prop key="hibernate.jdbc.batch_versioned_data">${hibernate.jdbc.batch_versioned_data}</prop>
+                <prop key="hibernate.jdbc.use_streams_for_binary">${hibernate.jdbc.use_streams_for_binary}</prop>
+                <prop key="hibernate.c3p0.max_size">${hibernate.c3p0.max_size}</prop>
+                <prop key="hibernate.c3p0.max_size">${hibernate.c3p0.max_size}</prop>
+                <prop key="hibernate.c3p0.min_size">${hibernate.c3p0.min_size}</prop>
+                <prop key="hibernate.c3p0.timeout">${hibernate.c3p0.timeout}</prop>
+                <prop key="hibernate.c3p0.max_statements">${hibernate.c3p0.max_statements}</prop>
+                <prop key="hibernate.c3p0.idle_test_period">${hibernate.c3p0.idle_test_period}</prop>
+                <prop key="hibernate.c3p0.acquire_increment">${hibernate.c3p0.acquire_increment}</prop>
+                -->
+            </props>
+        </property>
+        <!--
+		<property name="entityInterceptor" ref="myPersistencyInterceptor"/>
+        -->
+        <!--<property name="namingStrategy" ref="myPersistenceNamingStrategy"/>-->
+        <property name="basePackage" value="${base.packages}"/>
+
+    </bean>
+
+    <bean id="identifierGenerator" class="org.hibernate.id.UUIDHexGenerator"/>
+
+
+    <!-- ========================= TRANSACTION CONFIGURATION ======================== -->
+
+    <bean id="transactionManager" class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!--
+         Instruct Spring to perform declarative transaction management
+         automatically on annotated classes.
+     -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <tx:advice id="txDaoAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="persist*" propagation="REQUIRED"/>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="import*" propagation="REQUIRED"/>
+            <tx:method name="drop*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="remove*" propagation="REQUIRED"/>
+            <tx:method name="create*" propagation="REQUIRED"/>
+            <tx:method name="change*" propagation="REQUIRED"/>
+            <tx:method name="modify*" propagation="REQUIRED"/>
+            <tx:method name="execute*" propagation="REQUIRED"/>
+            <tx:method name="initialize*" propagation="REQUIRED"/>
+            <tx:method name="*" read-only="true" propagation="SUPPORTS"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:advisor advice-ref="txDaoAdvice" pointcut="execution(* com.citydi.*.*DAO.*(..))"/>
+        <aop:advisor advice-ref="txDaoAdvice" pointcut="execution(* com.citydi.*.*Bean.*(..))"/>
+        <!--<aop:advisor advice-ref="txDaoAdvice" pointcut="execution(* com.citydi.*.*Facade.*(..))"/>-->
+        <!--<aop:advisor advice-ref="txDaoAdvice" pointcut="execution(* com.citydi.*.*Facade.*(..))"/>-->
+    </aop:config>
+    <!--<aop:advisor advice-ref="txDaoAdvice" pointcut="execution(* com.green.common.utils.DatabaseInitializer.*(..))"/>-->
+
+</beans>

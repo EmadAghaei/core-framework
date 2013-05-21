@@ -1,0 +1,66 @@
+package com.citydi.model;
+
+import com.citydi.common.base.BaseEntity;
+
+import javax.persistence.Entity;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+/**
+ * Created by Emad Aghayi
+ * at 2013/05/07 - 12:11
+ */
+@Entity
+@Table(name = "TBL_BILL")
+//@SequenceGenerator(name = "idGenerator", sequenceName = "SEQ_BILL", allocationSize = 1)
+public class Bill extends BaseEntity {
+
+//    private static final long serialVersionUID = 1787878;
+    private String billId;
+    private String payId;
+    private int billAmount;
+    private String billType;
+    private String billRefNumber;
+
+    public String getBillRefNumber() {
+        return billRefNumber;
+    }
+
+    public void setBillRefNumber(String billRefNumber) {
+        this.billRefNumber = billRefNumber;
+    }
+
+    public String getBillId() {
+        return billId;
+    }
+
+    public void setBillId(String billId) {
+        this.billId = billId;
+    }
+
+    public String getPayId() {
+        return payId;
+    }
+
+    public void setPayId(String payId) {
+        this.payId = payId;
+    }
+
+    public int getBillAmount() {
+        return billAmount;
+    }
+
+    public void setBillAmount(int billAmount) {
+        this.billAmount = billAmount;
+    }
+
+    public String getBillType() {
+        return billType;
+    }
+
+    public void setBillType(String billType) {
+        this.billType = billType;
+    }
+}
+
+

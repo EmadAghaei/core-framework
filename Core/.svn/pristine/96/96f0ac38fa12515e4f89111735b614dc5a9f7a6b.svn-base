@@ -1,0 +1,41 @@
+package com.citydi.bo;
+
+import com.citydi.common.base.BaseBean;
+import com.citydi.dal.dao.CustomerDAO;
+import com.citydi.model.Customer;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import java.util.Date;
+
+/**
+ * Created with IntelliJ IDEA.
+ * User: e.aghaei
+ * Date: 5/20/13
+ * Time: 10:08 AM
+ * To change this template use File | Settings | File Templates.
+ */
+@Component
+@Scope("prototype")
+
+public class CustomerBo extends BaseBean {
+    @Autowired
+    private CustomerDAO customerDAO;
+    @PostConstruct
+    public void init() {
+
+    }
+
+    public void fill(){
+        Customer customer = new Customer();
+        customer.setAddress("tehran");
+        customer.setExpireDate(new Date());
+        customer.setFamily("citydi");
+        customer.setName("corporateBanking");
+        customer.setNationalCode("4231917841");
+        customer.setGender("1");
+        customerDAO.save(customer);
+    }
+}
