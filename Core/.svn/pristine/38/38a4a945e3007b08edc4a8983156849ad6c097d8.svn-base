@@ -3,8 +3,6 @@ package com.citydi.model;
 import com.citydi.common.base.BaseEntity;
 
 import javax.persistence.*;
-import java.security.PrivateKey;
-import java.util.List;
 
 /**
  * Created by Emad Aghayi
@@ -17,8 +15,8 @@ public class Bill extends BaseEntity {
 
     private int billAmount;
     private String billType;
-//    private Customer customer;
-    private List<Customer> customerListManyToMany;
+    private Customer customer;
+
 
     @Column(name ="BILLAMOUNT" )
     public int getBillAmount() {
@@ -28,14 +26,10 @@ public class Bill extends BaseEntity {
     public String getBillType() {
         return billType;
     }
-//    @ManyToOne
-//    @JoinColumn(name = "FK_CUSTOMER")
-//    public Customer getCustomer() {
-//        return customer;
-//    }
-    @ManyToMany(mappedBy = "billListManyToMany")
-    public List<Customer> getCustomerListManyToMany() {
-        return customerListManyToMany;
+    @ManyToOne
+    @JoinColumn(name = "FK_CUSTOMER")
+    public Customer getCustomer() {
+        return customer;
     }
 
     public void setBillAmount(int billAmount) {
@@ -46,12 +40,8 @@ public class Bill extends BaseEntity {
         this.billType = billType;
     }
 
-//    public void setCustomer(Customer customer) {
-//        this.customer = customer;
-//    }
-
-    public void setCustomerListManyToMany(List<Customer> customerListManyToMany) {
-        this.customerListManyToMany = customerListManyToMany;
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
 }
 

@@ -24,10 +24,9 @@ public class Customer extends BaseEntity {
     private String nationalCode;
     private String gender;
     private String family;
-//    private List<Bill> bills;
-    private List<Bill> billListManyToMany;
+    private List<Bill> bills;
 
-    @Column(name ="NAME", nullable = false, length = 100)
+    @Column(name ="NAME" )
     public String getName() {
         return name;
     }
@@ -39,7 +38,7 @@ public class Customer extends BaseEntity {
     public Date getExpireDate() {
         return expireDate;
     }
-    @Column(name ="NATIONALCODE",unique = true)
+    @Column(name ="NATIONALCODE" )
     public String getNationalCode() {
         return nationalCode;
     }
@@ -51,19 +50,16 @@ public class Customer extends BaseEntity {
     public String getFamily() {
         return family;
     }
-//@OneToMany(cascade=CascadeType.ALL/*, fetch = FetchType.EAGER*/,mappedBy = "customer")
-//    public List<Bill> getBills() {
-//        return bills;
-//    }
-//    @Transient
-//    public void addBill(Bill bill) {
-//        bill.setCustomer(this);
-//        bills.add(bill);
-//    }
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "CUSTOMER_BILL", joinColumns = { @JoinColumn(name = "CUSTOMER_ID",referencedColumnName = "ID") }, inverseJoinColumns = { @JoinColumn(name = "BILL_ID",referencedColumnName = "ID") })
-    public List<Bill> getBillListManyToMany() {
-        return billListManyToMany;
+@OneToMany(cascade=CascadeType.ALL/*, fetch = FetchType.EAGER*/,mappedBy = "customer")
+
+
+    public List<Bill> getBills() {
+        return bills;
+    }
+    @Transient
+    public void addBill(Bill bill) {
+        bill.setCustomer(this);
+        bills.add(bill);
     }
 
     public void setName(String name) {
@@ -90,11 +86,7 @@ public class Customer extends BaseEntity {
         this.family = family;
     }
 
-//    public void setBills(List<Bill> bills) {
-//        this.bills = bills;
-//    }
-
-    public void setBillListManyToMany(List<Bill> billListManyToMany) {
-        this.billListManyToMany = billListManyToMany;
+    public void setBills(List<Bill> bills) {
+        this.bills = bills;
     }
 }

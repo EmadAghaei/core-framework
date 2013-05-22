@@ -22,11 +22,8 @@ public class CustomerTest {
     @Test
     public void customerInsertTest(){
         CustomerFacade customerFacade = (CustomerFacade) factory.getBean("customerFacade");
-      /*fill OneToMany*/
-        //customerFacade.fillCustomer();
+        customerFacade.fillCustomer();
 
-      /*fill ManyToMany*/
-        customerFacade.fillCustomerManyToMany();
 
     }
     @Test
@@ -34,5 +31,6 @@ public class CustomerTest {
         CustomerFacade customerFacade = (CustomerFacade) factory.getBean("customerFacade");
         customerFacade.removeCustomer();
 
-          }
+
+    }
 }

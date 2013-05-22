@@ -28,9 +28,4 @@ public class CustomerFacade {
         customerBo.removeOneToMany();
         System.out.print("Customer Deletedddddddddddddd");
     }
-
-    public void fillCustomerManyToMany() {
-        customerBo.fillManyToMany();
-        System.out.print("ManyToMany Customer Savedddddddddddddd");
-    }
 }

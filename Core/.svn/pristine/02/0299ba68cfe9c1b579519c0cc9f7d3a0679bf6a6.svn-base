@@ -46,12 +46,10 @@ public class CustomerBo extends BaseBean {
         Bill bill = new Bill();
         bill.setBillAmount(989898);
         bill.setBillType("set");
-        /*Commented for ManyToMany*/
-//        bill.setCustomer(customer);
+        bill.setCustomer(customer);
         List<Bill> billList = new ArrayList<Bill>();
         billList.add(bill);
-         /*Commented for ManyToMany*/
-//        customer.setBills(billList);
+        customer.setBills(billList);
         customerDAO.save(customer);
 //        List<Customer> list =customerDAO.findAll();
 //        List<Customer> list =customerDAO.findBillsByCustomer();
@@ -68,29 +66,5 @@ public class CustomerBo extends BaseBean {
     public void removeOneToMany() {
         List<Customer> customerList =customerDAO.findAll();
         customerDAO.remove(customerList.get(customerList.size()-1));
-    }
-
-    public void fillManyToMany() {
-
-        Customer customer=new Customer();
-        customer.setAddress("ManyToMany");
-        customer.setExpireDate(new Date());
-        customer.setName("ManyToMany");
-        customer.setFamily("ManyToMany");
-        customer.setGender("ManyToMany");
-        customer.setNationalCode("ManyToMany");
-        Bill bill = new Bill();
-        bill.setBillAmount(989898);
-        bill.setBillType("set");
-        List<Bill> billListTemp = new ArrayList<Bill>();
-        billListTemp.add(bill);
-
-        customer.setBillListManyToMany();
-        customer.set
-        bill.setCustomer(customer);
-        List<Bill> billList = new ArrayList<Bill>();
-        billList.add(bill);
-        customer.setBills(billList);
-        customerDAO.save(customer);
     }
 }

@@ -9,13 +9,13 @@
     <file path="D:/../temp/samapel/src/main/webapp/WEB-INF/weblogic.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364801157016" ignored="false" />
     <file path="D:/../temp/samapel/src/main/java/com/sadeghi/samapel/payehinfo/business/PayehInfoDAO.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364941495196" ignored="false" />
     <file path="/PayehInfoDAO.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364941486560" ignored="false" />
-    <file path="/fragment.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369120732390" ignored="false" />
+    <file path="/fragment.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369204412438" ignored="false" />
     <file path="/payeh-info.xhtml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364966756511" ignored="false" />
     <file path="D:/../temp/samapel/src/main/webapp/pages/payeh-info/payeh-info.xhtml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364966817561" ignored="false" />
     <file path="/dummy.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364802221430" ignored="false" />
     <file path="/AbstractSearchUI.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364934709006" ignored="false" />
     <file path="/SearchUI.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364934738407" ignored="false" />
-    <file path="/a.dummy" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369130366005" ignored="false" />
+    <file path="/a.dummy" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369215912213" ignored="false" />
     <file path="/TemplateBookletBean.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364935433783" ignored="false" />
     <file path="D:/../temp/samapel/src/main/java/com/sadeghi/samapel/reports/TemplateBookletBean.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364935437049" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/sadeghi/common/1.0/common-1.0.jar!/menu.xsd" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1364966124547" ignored="false" />
@@ -78,7 +78,7 @@
     <file path="E:/../CityDI/core/src/main/java/com/citydi/core/bo/BillBo.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368341236356" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/sadeghi/common/base/exceptions/SystemException.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368341370474" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/com/sadeghi/common/base/exceptions/ExceptionCodes.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368341370474" ignored="false" />
-    <file path="/BillBo.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369045098607" ignored="false" />
+    <file path="/BillBo.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369205175526" ignored="false" />
     <file path="/databaseContext.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369021997720" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/woww/src/Main.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368352707056" ignored="false" />
     <file path="E:/Mobile/mobile/pom.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368603008574" ignored="false" />
@@ -87,15 +87,15 @@
     <file path="/Mobile.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368615998303" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/citydi/common/1.0/common-1.0.jar!/spring/mainContext.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368623902538" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/citydi/common/1.0/common-1.0.jar!/spring/databaseContext.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368623902538" ignored="false" />
-    <file path="/BillFacade.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369039658146" ignored="false" />
+    <file path="/BillFacade.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369205002822" ignored="false" />
     <file path="/VisitTest.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368526096326" ignored="false" />
     <file path="/BillFacdeImpl.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368446131083" ignored="false" />
-    <file path="/Dummy.txt" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369032558757" ignored="false" />
+    <file path="/Dummy.txt" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369204417479" ignored="false" />
     <file path="/BillFacadeImpl.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368612996023" ignored="false" />
     <file path="/mainContext.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368522985317" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/citydi/common/1.0/common-1.0.jar!/com/citydi/facade/BillFacadeImpl.class" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368537752017" ignored="false" />
     <file path="$MAVEN_REPOSITORY$/com/citydi/common/1.0/common-1.0.jar!/com/citydi/business/BillBo.class" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368538527635" ignored="false" />
-    <file path="/BillTest.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369039606204" ignored="false" />
+    <file path="/BillTest.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369204959761" ignored="false" />
     <file path="/*.regexp" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368535577048" ignored="false" />
     <file path="$PROJECT_DIR$/../mobile/pom.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368851488500" ignored="false" />
     <file path="$PROJECT_DIR$/../mobile/src/main/java/com/citydi/Mobile.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368618037360" ignored="false" />
@@ -114,14 +114,14 @@
     <file path="/settings.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1368969589867" ignored="false" />
     <file path="/BaseEntity.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369020957803" ignored="false" />
     <file path="$USER_HOME$/Desktop/Core/src/main/resources/spring/databaseContext.xml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369025903146" ignored="false" />
-    <file path="/Customer.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369125371720" ignored="false" />
+    <file path="/Customer.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369216875877" ignored="false" />
     <file path="/CustomerDAO.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369138675073" ignored="false" />
-    <file path="/CustomerBo.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369134633478" ignored="false" />
-    <file path="/CustomerFacade.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369031615486" ignored="false" />
-    <file path="/CustomerTest.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369031766864" ignored="false" />
+    <file path="/CustomerBo.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369221332138" ignored="false" />
+    <file path="/CustomerFacade.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369218834793" ignored="false" />
+    <file path="/CustomerTest.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369218210650" ignored="false" />
     <file path="$PROJECT_DIR$/../samapel/src/main/java/com/sadeghi/samapel/mothercode/web/MotherCodeBean.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369035677349" ignored="false" />
     <file path="/MotherCodeBean.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369035676363" ignored="false" />
-    <file path="/Bill.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369121380351" ignored="false" />
+    <file path="/Bill.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369217452154" ignored="false" />
     <file path="$PROJECT_DIR$/../samapel/src/main/java/com/sadeghi/samapel/descriptionPattern/entity/DescriptionPattern.java" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369044754584" ignored="false" />
     <file path="$PROJECT_DIR$/../Corpratebanking/src/main/webapp/pages/login.xhtml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369115594796" ignored="false" />
     <file path="$PROJECT_DIR$/../Corpratebanking/src/main/webapp/pages/login2.xhtml" changelist="1929377a-f92c-4632-bb11-fa3aa86880de" time="1369115594796" ignored="false" />
@@ -167,7 +167,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/test/java/BillTest.java" line="24" class="BillTest" package="">
         <option name="ENABLED" value="true" />
@@ -183,7 +182,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java" line="55" class="com.citydi.bo.BillBo" package="com.citydi.bo">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java" line="58" class="com.citydi.bo.BillBo" package="com.citydi.bo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -197,7 +196,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" line="51" class="com.citydi.bo.CustomerBo" package="com.citydi.bo">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" line="64" class="com.citydi.bo.CustomerBo" package="com.citydi.bo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -211,7 +210,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" line="49" class="com.citydi.bo.CustomerBo" package="com.citydi.bo">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" line="62" class="com.citydi.bo.CustomerBo" package="com.citydi.bo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -225,7 +224,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java" line="48" class="com.citydi.bo.BillBo" package="com.citydi.bo">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java" line="49" class="com.citydi.bo.BillBo" package="com.citydi.bo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -253,7 +252,49 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" line="41" class="com.citydi.bo.CustomerBo" package="com.citydi.bo">
+      <breakpoint url="file://$PROJECT_DIR$/src/test/java/BillTest.java" line="23" class="BillTest" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java" line="32" class="com.citydi.facade.BillFacade" package="com.citydi.facade">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java" line="37" class="com.citydi.bo.BillBo" package="com.citydi.bo">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" line="69" class="com.citydi.bo.CustomerBo" package="com.citydi.bo">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -302,6 +343,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -315,7 +357,7 @@
       <file leaf-file-name="Bill.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="14" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -324,7 +366,7 @@
       <file leaf-file-name="CustomerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
+            <state line="28" column="43" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -333,45 +375,29 @@
       <file leaf-file-name="CustomerFacade.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/CustomerFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+            <state line="32" column="27" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerBo.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java">
+      <file leaf-file-name="BillTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BillTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="51" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.3323077">
+            <state line="22" column="28" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <marker date="1369205308902" expanded="true" signature="630:786" placeholder="{...}" />
+                <marker date="1369205308902" expanded="true" signature="829:954" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Customer.java">
+      <file leaf-file-name="BillFacade.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="20" selection-start="1283" selection-end="1288" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/dal/dao/CustomerDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/common/base/BaseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="383" column="4" selection-start="14241" selection-end="14241" vertical-scroll-proportion="0.0">
+            <state line="43" column="25" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -380,16 +406,48 @@
       <file leaf-file-name="BillBo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+            <state line="64" column="28" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BillFacade.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java">
+      <file leaf-file-name="CustomerBo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="18" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
+            <state line="86" column="8" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.6593807">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1394#1400#0" expanded="true" />
+                <element signature="e#2731#2737#0" expanded="true" />
+                <element signature="e#2916#2922#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParentRunner.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-3.88">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Customer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Customer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="9" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/common/base/BaseEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="22" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -411,16 +469,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/citydi/common/base/BaseEntity.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/databaseContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citydi/facade/CustomerFacade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate-oracle.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/BillTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citydi/dal/dao/CustomerDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BillTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citydi/facade/CustomerFacade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citydi/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citydi/model/Bill.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/citydi/dal/dao/CustomerDAO.java" />
       </list>
     </option>
   </component>
@@ -511,7 +569,120 @@
         </subPane>
       </pane>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="citydi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="citydi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="PackagesPane">
         <subPane>
@@ -535,23 +706,23 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.main.proportions" value="0.22666666" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.intentionPowerPack" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-with-hibernate-persistence-and-transactions-example/com-byteslounge-spring-tx" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.29144096" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -572,36 +743,7 @@
       <recent name="D:\projects\naji\medical-license\common\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerTest">
-    <configuration default="false" name="VisitTest.test" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="common" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VisitTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CustomerTest.customerRemoveTest">
     <configuration default="false" name="BillTest.test" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="core" />
@@ -660,43 +802,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="BillTest.billRemoveTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="core" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CustomerTest.customerTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="core" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="customerTest" />
+      <option name="MAIN_CLASS_NAME" value="BillTest" />
+      <option name="METHOD_NAME" value="billRemoveTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -708,13 +821,53 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BillTest.billInsertTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BillTest" />
+      <option name="METHOD_NAME" value="billInsertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CustomerTest.customerInsertTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="customerInsertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -778,19 +931,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -817,6 +957,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -855,20 +1008,50 @@
       <patterns />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.VisitTest.test" />
+    <configuration default="false" name="CustomerTest.customerRemoveTest" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="core" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="METHOD_NAME" value="customerRemoveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.customerRemoveTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BillTest.test" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BillTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CustomerTest.customerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BillTest.billRemoveTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.BillTest.billInsertTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CustomerTest.customerInsertTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CustomerTest.customerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BillTest.test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BillTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.VisitTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomerTest.customerInsertTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BillTest.billInsertTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BillTest.billRemoveTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BillTest.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BillTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -918,22 +1101,22 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38956523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33043477" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5641026" sideWeight="0.24277017" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24461539" sideWeight="0.5156794" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17511521" sideWeight="0.4626087" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32173914" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10138249" sideWeight="0.53217393" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17511521" sideWeight="0.53217393" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41217393" sideWeight="0.7519026" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17511521" sideWeight="0.5252174" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51652175" sideWeight="0.7519026" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1002,18 +1185,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/common/base/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/dal/dao/BillDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="11" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0">
@@ -1023,44 +1194,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate-oracle.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BillTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="362" selection-end="362" vertical-scroll-proportion="0.491453">
-          <folding />
-        </state>
+        <state line="7" column="29" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.1.2.RELEASE/spring-orm-3.1.2.RELEASE-sources.jar!/org/springframework/orm/hibernate3/HibernateTemplate.java">
@@ -1077,27 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="889" selection-end="889" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/CustomerFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="20" selection-start="1283" selection-end="1288" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/dal/dao/CustomerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="26" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
@@ -1105,11 +1218,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="2400" selection-end="2400" vertical-scroll-proportion="-3.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.609319">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/BillFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="25" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/BillBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="28" selection-start="1563" selection-end="1563" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1369205308902" expanded="true" signature="630:786" placeholder="{...}" />
+            <marker date="1369205308902" expanded="true" signature="829:954" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/common/base/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="43" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/facade/CustomerFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="9" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/model/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/citydi/bo/CustomerBo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="51" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.3323077">
+        <state line="86" column="8" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.6593807">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1394#1400#0" expanded="true" />
+            <element signature="e#2731#2737#0" expanded="true" />
+            <element signature="e#2916#2922#0" expanded="true" />
           </folding>
         </state>
       </provider>
